@@ -15,3 +15,5 @@ $('.sponsorsBox').magnificPopup({
 	  preload: [0, 1]
 	}, 
 });
+
+console.log("HERE");
