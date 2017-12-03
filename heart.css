@@ -1,6 +1,31 @@
+/*DEFINE SIZES*/
 :root {
   --size: 20px;
   --gap: 1px;
+}
+@media (min-width: 400px) {
+  :root {
+    --size: 25px;
+    --gap: 2px;
+  }
+}
+@media (min-width: 500px) {
+  :root {
+    --size: 34px;
+    --gap: 3px;
+  }
+}
+@media (min-width: 665px) {
+  :root {
+    --size: 40px;
+    --gap: 4px;
+  }
+}
+@media (min-width: 800px) {
+  :root {
+    --size: 50px;
+    --gap: 5px;
+  }
 }
 
 .wrapper {
@@ -76,7 +101,7 @@
   position:absolute;top:0;
   text-align:center;
   width: 100%;
-  height: calc(100% - var(--gap));
+  height: calc(101% - var(--gap));
   transition:all .35s;
 }
 .sponsorsBox:hover .sponsorNameBox{
@@ -95,31 +120,5 @@
     font-size: 8px;
   }
 
-@media (min-width: 400px) {
-  :root {
-    --size: 25px;
-    --gap: 2px;
-  }
-}
 
-@media (min-width: 500px) {
-  :root {
-    --size: 34px;
-    --gap: 3px;
-  }
-}
-
-@media (min-width: 665px) {
-  :root {
-    --size: 40px;
-    --gap: 4px;
-  }
-}
-
-@media (min-width: 800px) {
-  :root {
-    --size: 50px;
-    --gap: 5px;
-  }
-}
 
